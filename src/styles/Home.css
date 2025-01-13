@@ -1,0 +1,119 @@
+.App-Home{
+  background-color: #96AA97;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+
+header {
+  display: flex;
+  justify-content: flex-start; /* Ensure items align to the left */
+  padding: 20px; /* Optional: Add padding for better spacing */
+  width: 100%; /* Ensure header takes full width */
+  align-items: center;
+  margin-top: 20px;
+}
+
+header img {
+  margin-right: auto; /* Push the image to the left */
+  width: 50px; /* Set appropriate width */
+  height: auto;
+  margin-left: 65px;
+}
+
+header a{
+  margin-left: 45px;
+  margin-right: 45px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+
+}
+
+header a:hover{
+  margin-left: 45px;
+  margin-right: 45px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(120, 118, 118);
+  text-decoration: none;
+  transition: 0.3s;
+
+}
+
+header button{
+  margin-left: 45px;
+  margin-right: 45px;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 550;
+  border-radius: 20px;
+  border-style: none;
+  width: 100px;
+  background-color: white;
+  color: #96AA97;
+
+}
+
+header button:hover{
+  margin-left: 45px;
+  margin-right: 45px;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 550;
+  border-radius: 20px;
+  border-style: none;
+  width: 100px;
+  background-color: #D9D9D9;
+  color: #96AA97;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.main-content{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.main-content h1{
+  font-size: 100px;
+  margin-top: -100px;
+  color: white;
+}
+
+.main-content h3{
+  font-size: 30px;
+  margin-top: 20px;
+}
+.main-content a{
+  display:flex;
+  justify-content: center;
+}
+.main-content img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 40px;
+}
+.main-content img:hover{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+
+  width: 45px;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+
+
+

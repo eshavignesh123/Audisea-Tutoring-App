@@ -1,0 +1,84 @@
+
+
+.App-About{
+
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+.main-content h3{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.main-content img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 40px;
+}
+
+.main-content-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+
+}
+
+.main-content-about h2{
+  margin-top: 30px;
+  font-size: 70px;
+  color: #96AA97;
+
+}
+
+.main-inner-content-about{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  height: 100%;
+}
+
+.audisea-about-picture{
+  width: 80%;
+}
+
+.audisea-about-picture img{
+  width: 300px;
+  border-radius: 30px;
+
+}
+.about-content{
+  margin-left: 70px;
+}
+.about-content h3{
+  font-size: 28px;
+  color: #96AA97;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.about-content p{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-info img{
+  width: 30px;
+  height: 50%;
+  margin-right: 20px;
+}
+.about-content-paragraph{
+  margin-bottom: 40px;
+}

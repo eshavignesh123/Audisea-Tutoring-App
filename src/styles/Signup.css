@@ -1,0 +1,125 @@
+.Signup {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #96AA97;
+}
+
+.upper{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content:space-between;
+
+}
+
+h1{
+  margin:0;
+  font-family: "Inter", sans-serif;
+  color: #96AA97;
+}
+
+.sign-up-box{
+  width:35%;
+  background-color:white;
+  border-radius:29px;
+  padding: 35px;
+  margin:auto;
+
+
+}
+
+.slight-underline{
+  height:4px;
+  width:9%;
+  background-color: #002A32;
+  margin-top:5px;
+
+}
+
+.sign-up-form{
+  width: 100%;
+  align-self: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.sign-up-form input[type="email"], input[type="password"], input[type="text"]{
+  padding:13px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: solid black;
+  font-family: "Inter", sans-serif;
+}
+
+
+.sign-up-form input[type="email"]:focus, 
+.sign-up-form input[type="password"]:focus, 
+.sign-up-form input[type="text"]:focus, 
+.sign-up-form input[type="email"]:hover, 
+.sign-up-form input[type="password"]:hover,
+.sign-up-form input[type="text"]:hover
+{
+  padding:13px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color:rgb(208, 199, 199);
+  outline: none;
+}
+
+.sign-up-form label{
+  padding:10px 10px 10px 0;
+  display:flex;
+  align-items:center;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #002A32;
+}
+
+.sign-up-form button{
+  margin-top:10px;
+  height:40px;
+  padding: 10px;
+  align-self:center;
+  width:25%;
+  border:none;
+  border-radius:10px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #96AA97;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.sign-up-form button:hover{
+  margin-top:10px;
+  height:40px;
+  padding: 10px;
+  align-self:center;
+  width:25%;
+  border:none;
+  border-radius:10px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #6c7a6d;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.sign-up-form a{
+  text-decoration: underline;
+}
