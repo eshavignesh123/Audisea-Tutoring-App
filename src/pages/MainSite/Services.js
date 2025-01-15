@@ -1,5 +1,5 @@
-import ServicesComp from '../components/ServicesComp';
-import '../styles/Services.css';
+import ServicesComp from '../../components/ServicesComp';
+import '../../styles/Services.css';
 
 
 function Services(){

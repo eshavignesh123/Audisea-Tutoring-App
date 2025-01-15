@@ -1,9 +1,11 @@
-import '../styles/Signup.css';
-import { Link } from 'react-router-dom';
-
+import '../../styles/Signup.css';
+import { Link, useLocation } from 'react-router-dom';
 
 function Signup(){
+
+
   return(
+    
     <div className = "Signup">
 
       <div class = "sign-up-box">
@@ -12,7 +14,7 @@ function Signup(){
             Sign Up
           </h1>
           <Link to="/">
-            <button>Go back</button>
+            <button className = "back-button">Go back</button>
           </Link>
 
         </div>
@@ -24,6 +26,30 @@ function Signup(){
           <input required type = "email" placeholder = "Enter your email"></input>
           <input required type = "password" placeholder = "Enter your password"></input>
           <input required type = "password" placeholder = "Confirm your password"></input>
+
+          <label>Are you a tutor or client?</label>
+          <div className = "type-selection">
+            <div className = "radio-selection">
+              <input
+                type="radio"
+                value="option1"
+                name="radio"
+              />
+              <span className="text-lg">Tutor</span>
+
+            </div>
+            <div className = "radio-selection">
+              <input
+                type="radio"
+                value="option1"
+                name="radio"
+              />
+              <span className="text-lg">Client</span>
+
+            </div>
+
+          </div>
+            
 
           <div>
             <button type = "submit">

@@ -1,0 +1,38 @@
+.Login {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Use min-height instead of height to allow flexibility */
+  background-color: #96AA97;
+}
+
+form{
+  width: 100%;
+  max-width: 500px;
+  padding :25px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+form h1{
+  color: black;
+  margin-bottom: 30px;
+
+}
+
+button{
+  margin-right: 20px;
+}
+
+input[type="email"], input[type="password"] {
+  appearance: none;  /* Reset default styling */
+  -webkit-appearance: none; /* Reset WebKit-specific styling */
+  -moz-appearance: none;  /* Reset Mozilla-specific styling */
+  background-color: #fff;  /* Set a consistent background */
+  border: 1px solid #ccc;  /* Set a consistent border */
+  border-radius: 4px;  /* Consistent border radius */
+  padding: 10px;  /* Consistent padding */
+  font-size: 16px;  /* Consistent font size */
+}

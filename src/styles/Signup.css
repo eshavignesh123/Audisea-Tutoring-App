@@ -71,7 +71,7 @@ h1{
   padding:13px;
   margin-bottom: 20px;
   border-radius: 10px;
-  background-color:rgb(208, 199, 199);
+  background-color:rgb(227, 227, 227);
   outline: none;
 }
 
@@ -122,4 +122,31 @@ h1{
 
 .sign-up-form a{
   text-decoration: underline;
+}
+
+
+.type-selection{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.radio-selection{
+  margin-right: 20px;
+}
+
+span{
+  margin-left: 5px;
+}
+
+.back-button{
+  padding: 10px;
+  background-color: #96AA97;
+  color: white;
+  border: none;
+  border-radius: 8px
+}
+
+.back-button:hover{
+  background-color: #6c7a6d;
+  cursor: pointer;
 }

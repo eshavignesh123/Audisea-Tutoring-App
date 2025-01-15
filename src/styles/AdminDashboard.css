@@ -1,0 +1,116 @@
+/* Admin Dashboard Styles */
+.Admin-Dashboard {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh; /* Allow for flexibility */
+  background-color: #f1f1f1; /* Subtle background color */
+  padding: 20px;
+}
+
+/* Navbar */
+.Admin-Dashboard .navbar {
+  background-color: #004d00; /* Dark green navbar */
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.Admin-Dashboard .navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.Admin-Dashboard .navbar-nav .nav-link {
+  color: white;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.Admin-Dashboard .navbar-nav .nav-link:hover {
+  color: #cce5cc;
+  transition: color 0.3s ease;
+}
+
+/* Form Section */
+.Admin-Dashboard form {
+  background-color: white; /* White background for the form */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Admin-Dashboard form h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px; /* Space below the header */
+}
+
+/* Form Inputs */
+.Admin-Dashboard .form-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.Admin-Dashboard input[type="text"],
+.Admin-Dashboard input[type="email"],
+.Admin-Dashboard input[type="password"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  width: 100%; /* Ensure inputs take full width */
+}
+
+.Admin-Dashboard input[type="text"]:focus,
+.Admin-Dashboard input[type="email"]:focus,
+.Admin-Dashboard input[type="password"]:focus {
+  outline: none;
+  border-color: #28a745; /* Green border on focus */
+}
+
+/* Submit Button */
+.Admin-Dashboard button[type="submit"] {
+  background-color: #007bff; /* Blue submit button */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.Admin-Dashboard button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Logout Button */
+.Admin-Dashboard .logout-btn {
+  background-color: #dc3545; /* Red logout button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.Admin-Dashboard .logout-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
